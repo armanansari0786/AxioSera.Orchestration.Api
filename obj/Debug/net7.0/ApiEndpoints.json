@@ -2,6 +2,22 @@
   {
     "ContainingType": "AxioSera.Orchestration.Api.Controllers.AuthController",
     "Method": "GetUsers",
+    "RelativePath": "api/Auth/getuser/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AxioSera.Orchestration.Api.Controllers.AuthController",
+    "Method": "GetUsers",
     "RelativePath": "api/Auth/getusers",
     "HttpMethod": "GET",
     "IsController": true,

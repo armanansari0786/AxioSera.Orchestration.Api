@@ -78,6 +78,12 @@ namespace AxioSera.Orchestration.Api.Controllers
         {
             return Ok(_db.Users.ToList());
         }
+        [Authorize]
+        [HttpGet("getuser/{id}")]
+        public IActionResult GetUsers(int id)
+        {
+          return  Ok(_db.Users.Find(id));
+        }
 
         [AllowAnonymous]
         [HttpPost("users")]

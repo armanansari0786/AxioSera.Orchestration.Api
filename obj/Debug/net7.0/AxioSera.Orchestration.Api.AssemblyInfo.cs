@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AxioSera.Orchestration.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2055d26b46a6107fc42f11216e6159266a8c20a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("AxioSera.Orchestration.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AxioSera.Orchestration.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

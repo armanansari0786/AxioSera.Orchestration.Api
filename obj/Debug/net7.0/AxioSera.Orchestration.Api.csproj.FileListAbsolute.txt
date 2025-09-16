@@ -83,3 +83,4 @@ C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql\obj\Debug\net7.0\
 C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql\bin\Debug\net7.0\Program.cs
 C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql\bin\Debug\net7.0\AxioSera.Orchestration.Api.pdb
 C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql\obj\Debug\net7.0\ref\AxioSera.Orchestration.Api.dll
+C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql\obj\Debug\net7.0\AxioSera.Orchestration.Api.sourcelink.json
