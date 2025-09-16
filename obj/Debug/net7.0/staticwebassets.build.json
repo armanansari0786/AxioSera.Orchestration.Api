@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AXTxjfqkwoi9osYwrsala4PsvJWBR/jJnPmMKFt3sPM=",
+  "Source": "AxioSera.Orchestration.Api",
+  "BasePath": "_content/AxioSera.Orchestration.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

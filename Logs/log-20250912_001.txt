@@ -1,0 +1,1537 @@
+2025-09-12 15:28:55.710 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 15:28:55.747 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 15:28:55.748 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 15:28:55.748 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 15:28:55.762 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 15:28:55.763 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 15:28:55.767 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:28:55.769 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:28:55.783 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:28:56.047 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 15:28:56.363 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 15:28:56.363 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 15:28:56.475 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 15:28:56.475 +05:30 [INF] Hosting environment: Development
+2025-09-12 15:28:56.475 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 15:28:57.617 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 15:28:57.819 +05:30 [INF] HTTP GET /swagger/index.html responded 404 in 79.7713 ms
+2025-09-12 15:28:57.822 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 404 0 - 208.2508ms
+2025-09-12 15:28:59.552 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 15:28:59.558 +05:30 [INF] HTTP GET /swagger/index.html responded 404 in 1.3073 ms
+2025-09-12 15:28:59.558 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 404 0 - 6.0609ms
+2025-09-12 15:29:00.234 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 15:29:00.239 +05:30 [INF] HTTP GET /swagger/index.html responded 404 in 2.1972 ms
+2025-09-12 15:29:00.240 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 404 0 - 5.6984ms
+2025-09-12 15:29:00.479 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 15:29:00.480 +05:30 [INF] HTTP GET /swagger/index.html responded 404 in 0.0642 ms
+2025-09-12 15:29:00.481 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 404 0 - 1.8139ms
+2025-09-12 15:29:17.142 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 15:29:17.182 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 15:29:17.184 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 15:29:17.185 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 15:29:17.203 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 15:29:17.220 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 15:29:17.374 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:29:17.379 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:29:17.381 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:29:17.498 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 15:29:17.616 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 15:29:17.616 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 15:29:17.681 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 15:29:17.681 +05:30 [INF] Hosting environment: Development
+2025-09-12 15:29:17.681 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 15:29:17.915 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 15:29:18.070 +05:30 [INF] HTTP GET /swagger/index.html responded 404 in 57.7711 ms
+2025-09-12 15:29:18.072 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 404 0 - 160.2543ms
+2025-09-12 15:53:10.792 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 15:53:10.849 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 15:53:10.851 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 15:53:10.851 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 15:53:10.873 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 15:53:10.892 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 15:53:11.112 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:53:11.121 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:53:11.125 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:53:11.251 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 15:53:11.378 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 15:53:11.378 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 15:53:11.436 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 15:53:11.436 +05:30 [INF] Hosting environment: Development
+2025-09-12 15:53:11.437 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 15:53:12.259 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 15:53:12.429 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 200 - text/html;charset=utf-8 171.9868ms
+2025-09-12 15:53:12.482 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - -
+2025-09-12 15:53:12.482 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_vs/browserLink - -
+2025-09-12 15:53:12.499 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - - - 200 13788 application/javascript;+charset=utf-8 16.5637ms
+2025-09-12 15:53:12.550 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 67.4488ms
+2025-09-12 15:53:12.579 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - -
+2025-09-12 15:53:12.601 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/favicon-32x32.png - -
+2025-09-12 15:53:12.615 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-09-12 15:53:12.615 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/favicon-32x32.png - - - 200 628 image/png 13.8921ms
+2025-09-12 15:53:12.673 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 93.5559ms
+2025-09-12 15:53:32.353 +05:30 [INF] Request starting HTTP/2 POST https://localhost:55164/api/Auth/login application/json 46
+2025-09-12 15:53:32.448 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 15:53:32.467 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AxioSera.Orchestration.Api.Dtos.LoginRequest) on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 15:53:32.602 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Password], [u].[RoleName], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 AND [u].[Password] = @__password_1
+2025-09-12 15:53:32.611 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-12 15:53:32.618 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api) in 146.9099ms
+2025-09-12 15:53:32.619 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 15:53:32.621 +05:30 [INF] HTTP POST /api/Auth/login responded 401 in 264.5463 ms
+2025-09-12 15:53:32.627 +05:30 [INF] Request finished HTTP/2 POST https://localhost:55164/api/Auth/login application/json 46 - 401 - application/json;+charset=utf-8 274.2183ms
+2025-09-12 15:53:41.314 +05:30 [INF] Request starting HTTP/2 POST https://localhost:55164/api/Auth/login application/json 45
+2025-09-12 15:53:41.317 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 15:53:41.318 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AxioSera.Orchestration.Api.Dtos.LoginRequest) on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 15:53:41.371 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Password], [u].[RoleName], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 AND [u].[Password] = @__password_1
+2025-09-12 15:53:41.371 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-12 15:53:41.371 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api) in 53.3494ms
+2025-09-12 15:53:41.371 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 15:53:41.371 +05:30 [INF] HTTP POST /api/Auth/login responded 401 in 57.4907 ms
+2025-09-12 15:53:41.372 +05:30 [INF] Request finished HTTP/2 POST https://localhost:55164/api/Auth/login application/json 45 - 401 - application/json;+charset=utf-8 57.9573ms
+2025-09-12 15:56:36.480 +05:30 [INF] Request starting HTTP/2 POST https://localhost:55164/api/Auth/login application/json 52
+2025-09-12 15:56:36.485 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 15:56:36.485 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AxioSera.Orchestration.Api.Dtos.LoginRequest) on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 15:56:36.490 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Password], [u].[RoleName], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 AND [u].[Password] = @__password_1
+2025-09-12 15:56:36.639 +05:30 [INF] Executing OkObjectResult, writing value of type 'AxioSera.Orchestration.Api.Dtos.LoginResponse'.
+2025-09-12 15:56:36.640 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api) in 155.2308ms
+2025-09-12 15:56:36.640 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 15:56:36.640 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 159.6652 ms
+2025-09-12 15:56:36.640 +05:30 [INF] Request finished HTTP/2 POST https://localhost:55164/api/Auth/login application/json 52 - 200 - application/json;+charset=utf-8 160.5803ms
+2025-09-12 15:58:41.026 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 15:58:41.072 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 15:58:41.074 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 15:58:41.074 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 15:58:41.094 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 15:58:41.111 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 15:58:41.266 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:58:41.271 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:58:41.274 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:58:41.384 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 15:58:41.506 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 15:58:41.506 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 15:58:41.556 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 15:58:41.556 +05:30 [INF] Hosting environment: Development
+2025-09-12 15:58:41.556 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 15:58:42.220 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 15:58:42.367 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 200 - text/html;charset=utf-8 148.0670ms
+2025-09-12 15:58:42.377 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_vs/browserLink - -
+2025-09-12 15:58:42.378 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - -
+2025-09-12 15:58:42.387 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - - - 200 13788 application/javascript;+charset=utf-8 8.5140ms
+2025-09-12 15:58:42.427 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.7381ms
+2025-09-12 15:58:42.456 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - -
+2025-09-12 15:58:42.531 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 74.9142ms
+2025-09-12 15:58:49.678 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 15:58:49.721 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 15:58:49.723 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 15:58:49.724 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 15:58:49.745 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 15:58:49.762 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 15:58:49.919 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:58:49.923 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:58:49.925 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:58:50.040 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 15:58:50.163 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 15:58:50.163 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 15:58:50.221 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 15:58:50.221 +05:30 [INF] Hosting environment: Development
+2025-09-12 15:58:50.221 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 15:58:50.780 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 15:58:50.931 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - -
+2025-09-12 15:58:50.931 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_vs/browserLink - -
+2025-09-12 15:58:50.941 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 200 - text/html;charset=utf-8 156.1673ms
+2025-09-12 15:58:50.945 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - - - 200 13788 application/javascript;+charset=utf-8 12.4131ms
+2025-09-12 15:58:51.002 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 70.9586ms
+2025-09-12 15:58:51.031 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - -
+2025-09-12 15:58:51.107 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.7529ms
+2025-09-12 15:59:07.119 +05:30 [INF] Request starting HTTP/2 POST https://localhost:55164/api/Auth/login application/json 50
+2025-09-12 15:59:07.199 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 15:59:07.215 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AxioSera.Orchestration.Api.Dtos.LoginRequest) on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 15:59:07.338 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Password], [u].[RoleName], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 AND [u].[Password] = @__password_1
+2025-09-12 15:59:07.344 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-12 15:59:07.348 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api) in 130.4508ms
+2025-09-12 15:59:07.348 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 15:59:07.349 +05:30 [INF] HTTP POST /api/Auth/login responded 401 in 223.8413 ms
+2025-09-12 15:59:07.354 +05:30 [INF] Request finished HTTP/2 POST https://localhost:55164/api/Auth/login application/json 50 - 401 - application/json;+charset=utf-8 234.9884ms
+2025-09-12 15:59:33.244 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 15:59:33.279 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 15:59:33.281 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 15:59:33.281 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 15:59:33.300 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 15:59:33.309 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 15:59:44.485 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 15:59:44.526 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 15:59:44.528 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 15:59:44.529 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 15:59:44.547 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 15:59:44.563 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 15:59:44.722 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:59:44.727 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:59:44.730 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 15:59:44.843 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 15:59:44.969 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 15:59:44.969 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 15:59:45.021 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 15:59:45.022 +05:30 [INF] Hosting environment: Development
+2025-09-12 15:59:45.022 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 15:59:45.527 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 15:59:45.669 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 200 - text/html;charset=utf-8 142.7538ms
+2025-09-12 15:59:45.680 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_vs/browserLink - -
+2025-09-12 15:59:45.680 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - -
+2025-09-12 15:59:45.685 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - - - 200 13788 application/javascript;+charset=utf-8 4.9337ms
+2025-09-12 15:59:45.718 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.1956ms
+2025-09-12 15:59:45.752 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - -
+2025-09-12 15:59:45.843 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.7607ms
+2025-09-12 15:59:58.514 +05:30 [INF] Request starting HTTP/2 POST https://localhost:55164/api/Auth/login application/json 50
+2025-09-12 15:59:58.585 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 15:59:58.599 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AxioSera.Orchestration.Api.Dtos.LoginRequest) on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 15:59:58.712 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Password], [u].[RoleName], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 AND [u].[Password] = @__password_1
+2025-09-12 15:59:58.718 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-12 15:59:58.722 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api) in 120.5217ms
+2025-09-12 15:59:58.722 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 15:59:58.724 +05:30 [INF] HTTP POST /api/Auth/login responded 401 in 206.1294 ms
+2025-09-12 15:59:58.728 +05:30 [INF] Request finished HTTP/2 POST https://localhost:55164/api/Auth/login application/json 50 - 401 - application/json;+charset=utf-8 214.1689ms
+2025-09-12 16:00:17.681 +05:30 [INF] Request starting HTTP/2 POST https://localhost:55164/api/Auth/login application/json 52
+2025-09-12 16:00:17.685 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 16:00:17.685 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AxioSera.Orchestration.Api.Dtos.LoginRequest) on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 16:00:17.736 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Password], [u].[RoleName], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 AND [u].[Password] = @__password_1
+2025-09-12 16:00:17.872 +05:30 [INF] Executing OkObjectResult, writing value of type 'AxioSera.Orchestration.Api.Dtos.LoginResponse'.
+2025-09-12 16:00:17.873 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api) in 187.9691ms
+2025-09-12 16:00:17.873 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 16:00:17.873 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 191.8560 ms
+2025-09-12 16:00:17.874 +05:30 [INF] Request finished HTTP/2 POST https://localhost:55164/api/Auth/login application/json 52 - 200 - application/json;+charset=utf-8 192.4244ms
+2025-09-12 16:55:19.614 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 16:55:19.679 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 16:55:19.681 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 16:55:19.681 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 16:55:19.703 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 16:55:19.731 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 16:55:19.916 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 16:55:19.922 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 16:55:19.925 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 16:55:20.142 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 16:55:20.414 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 16:55:20.414 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 16:55:20.485 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 16:55:20.485 +05:30 [INF] Hosting environment: Development
+2025-09-12 16:55:20.485 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 16:55:21.561 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 16:55:21.875 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 200 - text/html;charset=utf-8 317.3099ms
+2025-09-12 16:55:21.897 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - -
+2025-09-12 16:55:21.901 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_vs/browserLink - -
+2025-09-12 16:55:21.906 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - - - 200 13788 application/javascript;+charset=utf-8 8.5751ms
+2025-09-12 16:55:22.362 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 461.1137ms
+2025-09-12 16:55:22.404 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - -
+2025-09-12 16:55:22.563 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 159.1743ms
+2025-09-12 18:21:47.367 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 18:21:47.426 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 18:21:47.429 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 18:21:47.429 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 18:21:47.452 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 18:21:47.481 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 18:21:47.682 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:21:47.689 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:21:47.693 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:21:47.911 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 18:21:48.214 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 18:21:48.214 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 18:21:48.356 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 18:21:48.356 +05:30 [INF] Hosting environment: Development
+2025-09-12 18:21:48.356 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 18:21:49.626 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 18:21:49.814 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 200 - text/html;charset=utf-8 189.3670ms
+2025-09-12 18:21:49.822 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_vs/browserLink - -
+2025-09-12 18:21:49.822 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - -
+2025-09-12 18:21:49.832 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - - - 200 13788 application/javascript;+charset=utf-8 9.3459ms
+2025-09-12 18:21:49.886 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.0349ms
+2025-09-12 18:21:49.916 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - -
+2025-09-12 18:21:50.002 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 86.2145ms
+2025-09-12 18:22:19.483 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 18:22:19.563 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 18:22:19.565 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 18:22:19.566 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 18:22:19.592 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 18:22:19.622 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 18:22:19.833 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:22:19.839 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:22:19.841 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:22:19.996 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 18:22:20.230 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 18:22:20.230 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 18:22:20.289 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 18:22:20.289 +05:30 [INF] Hosting environment: Development
+2025-09-12 18:22:20.289 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 18:22:21.408 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 18:22:21.588 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_vs/browserLink - -
+2025-09-12 18:22:21.593 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 200 - text/html;charset=utf-8 185.0196ms
+2025-09-12 18:22:21.593 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - -
+2025-09-12 18:22:21.610 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - - - 200 13788 application/javascript;+charset=utf-8 16.6895ms
+2025-09-12 18:22:21.641 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.3707ms
+2025-09-12 18:22:21.673 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - -
+2025-09-12 18:22:21.779 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 105.3837ms
+2025-09-12 18:22:49.516 +05:30 [INF] Request starting HTTP/2 POST https://localhost:55164/api/Auth/login application/json 51
+2025-09-12 18:22:49.651 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 18:22:49.673 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AxioSera.Orchestration.Api.Dtos.LoginRequest) on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 18:22:49.841 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-12 18:22:49.847 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api) in 171.2514ms
+2025-09-12 18:22:49.847 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 18:22:49.848 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 328.7307 ms
+2025-09-12 18:22:49.850 +05:30 [INF] Request finished HTTP/2 POST https://localhost:55164/api/Auth/login application/json 51 - 200 - application/json;+charset=utf-8 334.2931ms
+2025-09-12 18:24:40.308 +05:30 [INF] Request starting HTTP/2 POST https://localhost:55164/api/Auth/users application/json 74
+2025-09-12 18:24:40.317 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.CreateUser (AxioSera.Orchestration.Api)'
+2025-09-12 18:24:40.319 +05:30 [INF] Route matched with {action = "CreateUser", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(AxioSera.Orchestration.Api.Dtos.UserDto) on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 18:24:40.542 +05:30 [INF] Executed DbCommand (77ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Password], [RoleName], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-09-12 18:24:40.558 +05:30 [INF] Executing OkObjectResult, writing value of type 'AxioSera.Orchestration.Api.Models.User'.
+2025-09-12 18:24:40.560 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.CreateUser (AxioSera.Orchestration.Api) in 240.8536ms
+2025-09-12 18:24:40.560 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.CreateUser (AxioSera.Orchestration.Api)'
+2025-09-12 18:24:40.560 +05:30 [INF] HTTP POST /api/Auth/users responded 200 in 250.9788 ms
+2025-09-12 18:24:40.566 +05:30 [INF] Request finished HTTP/2 POST https://localhost:55164/api/Auth/users application/json 74 - 200 - application/json;+charset=utf-8 257.5197ms
+2025-09-12 18:24:54.213 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/api/Auth/getusers - -
+2025-09-12 18:24:54.216 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.GetUsers (AxioSera.Orchestration.Api)'
+2025-09-12 18:24:54.217 +05:30 [INF] Route matched with {action = "GetUsers", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 18:24:54.305 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Password], [u].[RoleName], [u].[Username]
+FROM [Users] AS [u]
+2025-09-12 18:24:54.310 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AxioSera.Orchestration.Api.Models.User, AxioSera.Orchestration.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-12 18:24:54.310 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.GetUsers (AxioSera.Orchestration.Api) in 93.3571ms
+2025-09-12 18:24:54.310 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.GetUsers (AxioSera.Orchestration.Api)'
+2025-09-12 18:24:54.311 +05:30 [INF] HTTP GET /api/Auth/getusers responded 200 in 96.7127 ms
+2025-09-12 18:24:54.311 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/api/Auth/getusers - - - 200 - application/json;+charset=utf-8 97.6719ms
+2025-09-12 18:25:13.941 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:55164/api/Auth/getusers - -
+2025-09-12 18:25:13.975 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-09-12 18:25:13.986 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2025-09-12 18:25:13.986 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.GetUsers (AxioSera.Orchestration.Api)'
+2025-09-12 18:25:13.986 +05:30 [INF] Route matched with {action = "GetUsers", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 18:25:13.990 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Password], [u].[RoleName], [u].[Username]
+FROM [Users] AS [u]
+2025-09-12 18:25:13.990 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AxioSera.Orchestration.Api.Models.User, AxioSera.Orchestration.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-12 18:25:13.994 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.GetUsers (AxioSera.Orchestration.Api) in 7.9279ms
+2025-09-12 18:25:13.994 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.GetUsers (AxioSera.Orchestration.Api)'
+2025-09-12 18:25:13.994 +05:30 [INF] HTTP GET /api/Auth/getusers responded 200 in 52.7434 ms
+2025-09-12 18:25:13.994 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:55164/api/Auth/getusers - - - 200 - application/json;+charset=utf-8 53.2859ms
+2025-09-12 18:25:27.776 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/api/Auth/getuser/1 - -
+2025-09-12 18:25:27.777 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.GetUser (AxioSera.Orchestration.Api)'
+2025-09-12 18:25:27.779 +05:30 [INF] Route matched with {action = "GetUser", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUser(Int32) on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 18:25:27.830 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Password], [u].[RoleName], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0
+2025-09-12 18:25:27.831 +05:30 [INF] Executing OkObjectResult, writing value of type 'AxioSera.Orchestration.Api.Models.User'.
+2025-09-12 18:25:27.831 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.GetUser (AxioSera.Orchestration.Api) in 51.8327ms
+2025-09-12 18:25:27.831 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.GetUser (AxioSera.Orchestration.Api)'
+2025-09-12 18:25:27.831 +05:30 [INF] HTTP GET /api/Auth/getuser/1 responded 200 in 54.5253 ms
+2025-09-12 18:25:27.831 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/api/Auth/getuser/1 - - - 200 - application/json;+charset=utf-8 55.4737ms
+2025-09-12 18:25:58.092 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:55164/api/Auth/getuser/1 - -
+2025-09-12 18:25:58.094 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-09-12 18:25:58.094 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2025-09-12 18:25:58.095 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.GetUser (AxioSera.Orchestration.Api)'
+2025-09-12 18:25:58.095 +05:30 [INF] Route matched with {action = "GetUser", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUser(Int32) on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 18:25:58.110 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Password], [u].[RoleName], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0
+2025-09-12 18:25:58.110 +05:30 [INF] Executing OkObjectResult, writing value of type 'AxioSera.Orchestration.Api.Models.User'.
+2025-09-12 18:25:58.110 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.GetUser (AxioSera.Orchestration.Api) in 15.3977ms
+2025-09-12 18:25:58.110 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.GetUser (AxioSera.Orchestration.Api)'
+2025-09-12 18:25:58.110 +05:30 [INF] HTTP GET /api/Auth/getuser/1 responded 200 in 18.3342 ms
+2025-09-12 18:25:58.110 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:55164/api/Auth/getuser/1 - - - 200 - application/json;+charset=utf-8 44.5107ms
+2025-09-12 18:26:24.996 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 18:26:25.043 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 18:26:25.045 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 18:26:25.046 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 18:26:25.071 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 18:26:25.089 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 18:26:25.266 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:26:25.276 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:26:25.281 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:26:25.404 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 18:26:25.550 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 18:26:25.550 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 18:26:25.611 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 18:26:25.611 +05:30 [INF] Hosting environment: Development
+2025-09-12 18:26:25.611 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 18:26:26.521 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 18:26:26.689 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 200 - text/html;charset=utf-8 169.8904ms
+2025-09-12 18:26:26.695 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_vs/browserLink - -
+2025-09-12 18:26:26.695 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - -
+2025-09-12 18:26:26.701 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - - - 200 13788 application/javascript;+charset=utf-8 5.5269ms
+2025-09-12 18:26:26.736 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.2865ms
+2025-09-12 18:26:26.770 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - -
+2025-09-12 18:26:26.866 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.3635ms
+2025-09-12 18:27:28.992 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/.well-known/appspecific/com.chrome.devtools.json - -
+2025-09-12 18:27:29.110 +05:30 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 112.1288 ms
+2025-09-12 18:27:29.111 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/.well-known/appspecific/com.chrome.devtools.json - - - 404 0 - 119.0677ms
+2025-09-12 18:31:01.124 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 18:31:01.176 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 18:31:01.178 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 18:31:01.179 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 18:31:01.203 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 18:31:01.230 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 18:31:01.408 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:31:01.413 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:31:01.416 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:31:01.603 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 18:31:01.834 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 18:31:01.834 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 18:31:01.896 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 18:31:01.896 +05:30 [INF] Hosting environment: Development
+2025-09-12 18:31:01.896 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 18:31:02.785 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 18:31:03.000 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 200 - text/html;charset=utf-8 218.3096ms
+2025-09-12 18:31:03.006 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_vs/browserLink - -
+2025-09-12 18:31:03.006 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - -
+2025-09-12 18:31:03.020 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - - - 200 13788 application/javascript;+charset=utf-8 13.3274ms
+2025-09-12 18:31:03.062 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.3370ms
+2025-09-12 18:31:03.089 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - -
+2025-09-12 18:31:03.176 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 86.9240ms
+2025-09-12 18:32:08.957 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 18:32:09.000 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 18:32:09.002 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 18:32:09.003 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 18:32:09.025 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 18:32:09.044 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 18:32:09.200 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:32:09.205 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:32:09.207 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:32:09.325 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 18:32:09.451 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 18:32:09.451 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 18:32:09.504 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 18:32:09.504 +05:30 [INF] Hosting environment: Development
+2025-09-12 18:32:09.504 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 18:32:10.208 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 18:32:10.401 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 200 - text/html;charset=utf-8 190.5456ms
+2025-09-12 18:32:10.410 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - -
+2025-09-12 18:32:10.410 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_vs/browserLink - -
+2025-09-12 18:32:10.416 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - - - 200 13788 application/javascript;+charset=utf-8 5.8685ms
+2025-09-12 18:32:10.455 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.8022ms
+2025-09-12 18:32:10.484 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - -
+2025-09-12 18:32:10.577 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.8945ms
+2025-09-12 18:32:21.639 +05:30 [INF] Request starting HTTP/2 POST https://localhost:55164/api/Auth/logout - 0
+2025-09-12 18:32:21.748 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-09-12 18:32:21.753 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-12 18:32:21.754 +05:30 [INF] HTTP POST /api/Auth/logout responded 401 in 110.7399 ms
+2025-09-12 18:32:21.755 +05:30 [INF] Request finished HTTP/2 POST https://localhost:55164/api/Auth/logout - 0 - 401 0 - 115.7413ms
+2025-09-12 18:53:53.174 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 18:53:53.227 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 18:53:53.229 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 18:53:53.229 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 18:53:53.253 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 18:53:53.279 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 18:53:53.484 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:53:53.490 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:53:53.492 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 18:53:53.659 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 18:53:53.927 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 18:53:53.927 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 18:53:53.987 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 18:53:53.987 +05:30 [INF] Hosting environment: Development
+2025-09-12 18:53:53.987 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 18:53:55.045 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 18:53:55.242 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 200 - text/html;charset=utf-8 197.4147ms
+2025-09-12 18:53:55.250 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_vs/browserLink - -
+2025-09-12 18:53:55.250 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - -
+2025-09-12 18:53:55.257 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - - - 200 13788 application/javascript;+charset=utf-8 7.2808ms
+2025-09-12 18:53:55.323 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 72.7834ms
+2025-09-12 18:53:55.351 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - -
+2025-09-12 18:53:55.426 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.6822ms
+2025-09-12 18:54:12.615 +05:30 [INF] Request starting HTTP/2 POST https://localhost:55164/api/Auth/login application/json 51
+2025-09-12 18:54:12.723 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 18:54:12.743 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AxioSera.Orchestration.Api.Dtos.LoginRequest) on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 18:54:12.956 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-12 18:54:12.962 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api) in 215.2961ms
+2025-09-12 18:54:12.963 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 18:54:12.966 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 344.7167 ms
+2025-09-12 18:54:12.968 +05:30 [INF] Request finished HTTP/2 POST https://localhost:55164/api/Auth/login application/json 51 - 200 - application/json;+charset=utf-8 353.0644ms
+2025-09-12 19:00:45.989 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:00:46.028 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:00:46.031 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:00:46.031 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:00:46.050 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 19:00:46.069 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 19:00:46.221 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:00:46.225 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:00:46.227 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:00:46.341 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 19:00:46.460 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 19:00:46.460 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 19:00:46.513 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 19:00:46.513 +05:30 [INF] Hosting environment: Development
+2025-09-12 19:00:46.513 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 19:00:46.995 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:00:47.070 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 401 - - 77.0542ms
+2025-09-12 19:02:11.487 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:02:11.539 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:02:11.542 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:02:11.542 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:02:11.563 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 19:02:11.580 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 19:02:11.740 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:02:11.745 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:02:11.748 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:02:11.868 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 19:02:11.993 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 19:02:11.993 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 19:02:12.046 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 19:02:12.046 +05:30 [INF] Hosting environment: Development
+2025-09-12 19:02:12.047 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 19:02:12.707 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:02:12.789 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 401 - - 83.9152ms
+2025-09-12 19:03:05.641 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:03:05.680 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:03:05.682 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:03:05.683 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:03:05.701 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 19:03:05.718 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 19:03:05.869 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:03:05.875 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:03:05.878 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:03:05.989 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 19:03:06.103 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 19:03:06.103 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 19:03:06.159 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 19:03:06.159 +05:30 [INF] Hosting environment: Development
+2025-09-12 19:03:06.159 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 19:03:07.393 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:03:07.467 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 401 - - 75.6306ms
+2025-09-12 19:06:37.845 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:06:37.888 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:06:37.890 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:06:37.891 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:06:37.910 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 19:06:37.929 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 19:06:38.098 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:06:38.104 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:06:38.106 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:06:38.215 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 19:06:38.339 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 19:06:38.339 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 19:06:38.391 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 19:06:38.391 +05:30 [INF] Hosting environment: Development
+2025-09-12 19:06:38.391 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 19:06:39.171 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:06:39.254 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 401 - - 83.6939ms
+2025-09-12 19:09:39.171 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:09:39.212 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:09:39.214 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:09:39.215 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:09:39.233 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 19:09:39.251 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 19:09:39.407 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:09:39.412 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:09:39.415 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:09:39.447 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 19:09:39.583 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 19:09:39.583 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 19:09:39.685 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 19:09:39.685 +05:30 [INF] Hosting environment: Development
+2025-09-12 19:09:39.685 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 19:09:40.233 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:09:40.377 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 200 - text/html;charset=utf-8 145.8145ms
+2025-09-12 19:09:40.383 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_vs/browserLink - -
+2025-09-12 19:09:40.383 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - -
+2025-09-12 19:09:40.400 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - - - 200 13788 application/javascript;+charset=utf-8 16.6574ms
+2025-09-12 19:09:40.428 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.7019ms
+2025-09-12 19:09:40.457 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - -
+2025-09-12 19:09:40.538 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.8199ms
+2025-09-12 19:10:11.354 +05:30 [INF] Request starting HTTP/2 POST https://localhost:55164/api/Auth/login application/json 50
+2025-09-12 19:10:11.369 +05:30 [INF] HTTP POST /api/Auth/login responded 401 in 6.5148 ms
+2025-09-12 19:10:11.370 +05:30 [INF] Request finished HTTP/2 POST https://localhost:55164/api/Auth/login application/json 50 - 401 - - 15.5602ms
+2025-09-12 19:10:25.133 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/api/Auth/getusers - -
+2025-09-12 19:10:25.134 +05:30 [INF] HTTP GET /api/Auth/getusers responded 401 in 0.1676 ms
+2025-09-12 19:10:25.134 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/api/Auth/getusers - - - 401 - - 0.7242ms
+2025-09-12 19:10:42.666 +05:30 [INF] Request starting HTTP/2 POST https://localhost:55164/api/Auth/login application/json 51
+2025-09-12 19:10:42.666 +05:30 [INF] HTTP POST /api/Auth/login responded 401 in 0.0437 ms
+2025-09-12 19:10:42.666 +05:30 [INF] Request finished HTTP/2 POST https://localhost:55164/api/Auth/login application/json 51 - 401 - - 0.4541ms
+2025-09-12 19:11:11.763 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:11:11.803 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:11:11.805 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:11:11.806 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:11:11.826 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 19:11:11.844 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 19:11:12.003 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:11:12.007 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:11:12.010 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:11:12.120 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 19:11:12.249 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 19:11:12.249 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 19:11:12.307 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 19:11:12.307 +05:30 [INF] Hosting environment: Development
+2025-09-12 19:11:12.307 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 19:11:12.457 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:11:12.612 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 200 - text/html;charset=utf-8 156.8890ms
+2025-09-12 19:11:12.614 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - -
+2025-09-12 19:11:12.614 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_vs/browserLink - -
+2025-09-12 19:11:12.618 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - - - 200 13788 application/javascript;+charset=utf-8 4.4077ms
+2025-09-12 19:11:12.656 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.7846ms
+2025-09-12 19:11:12.684 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - -
+2025-09-12 19:11:12.765 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.6736ms
+2025-09-12 19:11:24.162 +05:30 [INF] Request starting HTTP/2 POST https://localhost:55164/api/Auth/login application/json 51
+2025-09-12 19:11:24.242 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 19:11:24.257 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AxioSera.Orchestration.Api.Dtos.LoginRequest) on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 19:11:24.399 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-12 19:11:24.403 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api) in 143.9342ms
+2025-09-12 19:11:24.404 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 19:11:24.405 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 239.4279 ms
+2025-09-12 19:11:24.406 +05:30 [INF] Request finished HTTP/2 POST https://localhost:55164/api/Auth/login application/json 51 - 200 - application/json;+charset=utf-8 244.3397ms
+2025-09-12 19:11:34.479 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/api/Auth/getusers - -
+2025-09-12 19:11:34.487 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.GetUsers (AxioSera.Orchestration.Api)'
+2025-09-12 19:11:34.489 +05:30 [INF] Route matched with {action = "GetUsers", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 19:11:34.540 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Password], [u].[RoleName], [u].[Username]
+FROM [Users] AS [u]
+2025-09-12 19:11:34.577 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AxioSera.Orchestration.Api.Models.User, AxioSera.Orchestration.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-12 19:11:34.579 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.GetUsers (AxioSera.Orchestration.Api) in 90.3824ms
+2025-09-12 19:11:34.579 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.GetUsers (AxioSera.Orchestration.Api)'
+2025-09-12 19:11:34.579 +05:30 [INF] HTTP GET /api/Auth/getusers responded 200 in 99.7012 ms
+2025-09-12 19:11:34.584 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/api/Auth/getusers - - - 200 - application/json;+charset=utf-8 104.6492ms
+2025-09-12 19:13:29.772 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:13:29.812 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:13:29.814 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:13:29.815 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:13:29.834 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 19:13:29.851 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 19:13:30.008 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:13:30.013 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:13:30.015 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:13:30.118 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 19:13:30.240 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 19:13:30.240 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 19:13:30.292 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 19:13:30.293 +05:30 [INF] Hosting environment: Development
+2025-09-12 19:13:30.293 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 19:13:30.857 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:13:30.954 +05:30 [INF] HTTP GET /swagger/index.html responded 401 in 20.3541 ms
+2025-09-12 19:13:30.956 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 401 - - 99.9850ms
+2025-09-12 19:15:13.584 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:15:13.625 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:15:13.627 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:15:13.627 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:15:13.647 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 19:15:13.664 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 19:15:13.818 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:15:13.823 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:15:13.825 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:15:13.927 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 19:15:14.037 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 19:15:14.037 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 19:15:14.089 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 19:15:14.089 +05:30 [INF] Hosting environment: Development
+2025-09-12 19:15:14.089 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 19:15:14.375 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:15:14.473 +05:30 [INF] HTTP GET /swagger/index.html responded 401 in 25.4088 ms
+2025-09-12 19:15:14.475 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 401 - - 102.1864ms
+2025-09-12 19:15:48.604 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:15:48.644 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:15:48.646 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:15:48.647 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:15:48.666 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 19:15:48.683 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 19:15:48.847 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:15:48.851 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:15:48.853 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:15:48.957 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 19:15:49.079 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 19:15:49.079 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 19:15:49.132 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 19:15:49.133 +05:30 [INF] Hosting environment: Development
+2025-09-12 19:15:49.133 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 19:15:49.367 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:15:49.459 +05:30 [INF] HTTP GET /swagger/index.html responded 401 in 20.3293 ms
+2025-09-12 19:15:49.462 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 401 - - 96.3478ms
+2025-09-12 19:17:27.169 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:17:27.212 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:17:27.214 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:17:27.214 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:17:27.235 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 19:17:27.252 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 19:17:27.409 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:17:27.414 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:17:27.416 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:17:27.524 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 19:17:27.647 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 19:17:27.647 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 19:17:27.711 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 19:17:27.711 +05:30 [INF] Hosting environment: Development
+2025-09-12 19:17:27.711 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 19:17:27.876 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:17:28.033 +05:30 [INF] HTTP GET /swagger/index.html responded 404 in 72.6090 ms
+2025-09-12 19:17:28.036 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 404 0 - 162.7220ms
+2025-09-12 19:17:30.111 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:17:30.116 +05:30 [INF] HTTP GET /swagger/index.html responded 404 in 1.9481 ms
+2025-09-12 19:17:30.117 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 404 0 - 6.2811ms
+2025-09-12 19:17:38.607 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/login - -
+2025-09-12 19:17:38.614 +05:30 [INF] HTTP GET /swagger/login responded 404 in 4.8158 ms
+2025-09-12 19:17:38.615 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/login - - - 404 0 - 7.0385ms
+2025-09-12 19:18:12.230 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:18:12.271 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:18:12.273 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:18:12.273 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:18:12.292 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 19:18:12.311 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 19:18:12.463 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:18:12.467 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:18:12.469 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:18:12.573 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 19:18:12.700 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 19:18:12.700 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 19:18:12.751 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 19:18:12.751 +05:30 [INF] Hosting environment: Development
+2025-09-12 19:18:12.751 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 19:18:13.414 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:18:13.578 +05:30 [INF] HTTP GET /swagger/index.html responded 404 in 86.4593 ms
+2025-09-12 19:18:13.581 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 404 0 - 168.3698ms
+2025-09-12 19:19:20.764 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:19:20.804 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:19:20.806 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:19:20.807 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:19:20.826 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 19:19:20.843 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 19:19:20.998 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:19:21.003 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:19:21.006 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:19:21.112 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 19:19:21.221 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 19:19:21.221 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 19:19:21.273 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 19:19:21.273 +05:30 [INF] Hosting environment: Development
+2025-09-12 19:19:21.273 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 19:19:21.694 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:19:21.863 +05:30 [INF] HTTP GET /swagger/index.html responded 404 in 68.5553 ms
+2025-09-12 19:19:21.866 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 404 0 - 173.6895ms
+2025-09-12 19:23:25.522 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:23:25.562 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:23:25.564 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:23:25.564 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:23:25.585 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 19:23:25.602 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 19:23:25.761 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:23:25.766 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:23:25.768 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:23:25.875 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 19:23:25.997 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 19:23:25.997 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 19:23:26.050 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 19:23:26.050 +05:30 [INF] Hosting environment: Development
+2025-09-12 19:23:26.050 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 19:23:26.559 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:23:26.718 +05:30 [INF] HTTP GET /swagger/index.html responded 404 in 89.7253 ms
+2025-09-12 19:23:26.721 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 404 0 - 163.5217ms
+2025-09-12 19:23:48.796 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:23:48.839 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:23:48.841 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:23:48.841 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:23:48.862 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 19:23:48.878 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 19:23:49.033 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:23:49.038 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:23:49.041 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:23:49.141 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 19:23:49.267 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 19:23:49.267 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 19:23:49.317 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 19:23:49.317 +05:30 [INF] Hosting environment: Development
+2025-09-12 19:23:49.317 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 19:23:49.959 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:23:50.116 +05:30 [INF] HTTP GET /swagger/index.html responded 404 in 79.2392 ms
+2025-09-12 19:23:50.119 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 404 0 - 162.2009ms
+2025-09-12 19:23:52.971 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - -
+2025-09-12 19:23:53.073 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 98.2070 ms
+2025-09-12 19:23:53.075 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 103.9737ms
+2025-09-12 19:23:58.077 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger - -
+2025-09-12 19:23:58.081 +05:30 [INF] HTTP GET /swagger/v1/swagger responded 404 in 2.8418 ms
+2025-09-12 19:23:58.081 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger - - - 404 0 - 4.3419ms
+2025-09-12 19:24:02.451 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:24:02.455 +05:30 [INF] HTTP GET /swagger/index.html responded 404 in 0.3812 ms
+2025-09-12 19:24:02.455 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 404 0 - 4.6816ms
+2025-09-12 19:24:22.032 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:24:22.072 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:24:22.074 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-09-12 19:24:22.074 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-09-12 19:24:22.093 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-09-12 19:24:22.109 +05:30 [INF] No migrations were applied. The database is already up to date.
+2025-09-12 19:24:22.262 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Roles] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:24:22.267 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:24:22.270 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-12 19:24:22.379 +05:30 [INF] User profile is available. Using 'C:\Users\AMOTECH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-12 19:24:22.499 +05:30 [INF] Now listening on: https://localhost:55164
+2025-09-12 19:24:22.499 +05:30 [INF] Now listening on: http://localhost:55165
+2025-09-12 19:24:22.548 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 19:24:22.548 +05:30 [INF] Hosting environment: Development
+2025-09-12 19:24:22.548 +05:30 [INF] Content root path: C:\Users\AMOTECH\Downloads\AxioSera.Orchestration.Api.with-sql
+2025-09-12 19:24:22.823 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/index.html - -
+2025-09-12 19:24:22.971 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/index.html - - - 200 - text/html;charset=utf-8 150.1325ms
+2025-09-12 19:24:22.980 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_vs/browserLink - -
+2025-09-12 19:24:22.980 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - -
+2025-09-12 19:24:22.985 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_framework/aspnetcore-browser-refresh.js - - - 200 13788 application/javascript;+charset=utf-8 5.1392ms
+2025-09-12 19:24:23.020 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.3941ms
+2025-09-12 19:24:23.051 +05:30 [INF] Request starting HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - -
+2025-09-12 19:24:23.135 +05:30 [INF] Request finished HTTP/2 GET https://localhost:55164/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.4331ms
+2025-09-12 19:24:39.395 +05:30 [INF] Request starting HTTP/2 POST https://localhost:55164/api/Auth/login application/json 51
+2025-09-12 19:24:39.472 +05:30 [INF] Executing endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 19:24:39.486 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AxioSera.Orchestration.Api.Dtos.LoginRequest) on controller AxioSera.Orchestration.Api.Controllers.AuthController (AxioSera.Orchestration.Api).
+2025-09-12 19:24:39.619 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-12 19:24:39.623 +05:30 [INF] Executed action AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api) in 133.8639ms
+2025-09-12 19:24:39.623 +05:30 [INF] Executed endpoint 'AxioSera.Orchestration.Api.Controllers.AuthController.Login (AxioSera.Orchestration.Api)'
+2025-09-12 19:24:39.624 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 225.0726 ms
+2025-09-12 19:24:39.626 +05:30 [INF] Request finished HTTP/2 POST https://localhost:55164/api/Auth/login application/json 51 - 200 - application/json;+charset=utf-8 231.1299ms

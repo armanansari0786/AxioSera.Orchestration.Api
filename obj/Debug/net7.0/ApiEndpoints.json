@@ -1,0 +1,142 @@
+[
+  {
+    "ContainingType": "AxioSera.Orchestration.Api.Controllers.AuthController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Auth/getusers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AxioSera.Orchestration.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "AxioSera.Orchestration.Api.Dtos.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AxioSera.Orchestration.Api.Controllers.AuthController",
+    "Method": "GetSecureData",
+    "RelativePath": "api/Auth/secure-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AxioSera.Orchestration.Api.Controllers.AuthController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Auth/users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AxioSera.Orchestration.Api.Dtos.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AxioSera.Orchestration.Api.Controllers.CategoryController",
+    "Method": "GetAllCategories",
+    "RelativePath": "api/Category/getallcategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AxioSera.Orchestration.Api.Controllers.LogsController",
+    "Method": "GetLogs",
+    "RelativePath": "api/Logs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AxioSera.Orchestration.Api.Controllers.LogsController",
+    "Method": "GetLogFile",
+    "RelativePath": "api/Logs/{filename}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filename",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AxioSera.Orchestration.Api.Controllers.TenantController",
+    "Method": "AddDomain",
+    "RelativePath": "api/Tenant/domain",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AxioSera.Orchestration.Api.Models.Tenant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AxioSera.Orchestration.Api.Controllers.WorkflowController",
+    "Method": "RunSimulation",
+    "RelativePath": "api/Workflow/simulation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rq",
+        "Type": "AxioSera.Orchestration.Api.Dtos.RunSimulationRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AxioSera.Orchestration.Api.Controllers.WorkflowController",
+    "Method": "SimulationCount",
+    "RelativePath": "api/Workflow/simulation-count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AxioSera.Orchestration.Api.Controllers.HealthController",
+    "Method": "Health",
+    "RelativePath": "health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
